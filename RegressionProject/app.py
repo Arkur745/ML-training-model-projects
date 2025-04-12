@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-with open('model.pkl','rb') as file:
+with open('RegressionProject/model.pkl','rb') as file:
     model = pickle.load(file)
 
 with open('encoder.pkl','rb') as file:
