@@ -8,7 +8,7 @@ import pickle
 with open('RegressionProject/model.pkl','rb') as file:
     model = pickle.load(file)
 
-with open('encoder.pkl','rb') as file:
+with open('RegressionProject/encoder.pkl','rb') as file:
     encoder = pickle.load(file)
 
 
