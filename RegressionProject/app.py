@@ -4,8 +4,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import os
 
-with open('model.pkl','rb') as file:
+
+model_path = os.path.join(os.getcwd(), 'model.pkl')
+with open(model_path,'rb') as file:
     model = pickle.load(file)
 
 with open('encoder.pkl','rb') as file:
