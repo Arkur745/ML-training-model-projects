@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 import pickle
 
-with open('model.pkl','rb') as file:
+with open('Classification_Project/model.pkl','rb') as file:
     model = pickle.load(file)
 st.title("Titanic Survival Prediction")
 
