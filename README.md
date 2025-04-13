@@ -24,7 +24,7 @@ Welcome to this repository, which contains two machine learning projects demonst
 
 ---
 
-### **Project 2: Calories Burnt Prediction** 🔥
+### **Project 2: Calories Burnt Prediction** 🔥 [here is the app link](https://calorie-aryx.streamlit.app/)
 - **Objective**: Predict the number of calories burnt based on various factors.
 - **Algorithm Used**: XGBoost Regressor
 - **Type**: Supervised Regression
