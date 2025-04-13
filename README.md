@@ -8,7 +8,7 @@ Welcome to this repository, which contains two machine learning projects demonst
 
 ## 🚀 Projects Overview
 
-### **Project 1: Titanic Survival Prediction** 🛳️ [here is the app link](httpa://titanic-aryx.streamlit.app)
+### **Project 1: Titanic Survival Prediction** 🛳️ [here is the app link](https://titanic-aryx.streamlit.app/)
 - **Objective**: Predict passenger survivability on the Titanic using machine learning.
 - **Algorithm Used**: Logistic Regression
 - **Type**: Supervised Classification
