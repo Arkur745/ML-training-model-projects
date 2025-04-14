@@ -7,8 +7,8 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
 
-model = load_model('model.h5')
-with open('tokenizer.pkl','rb') as handle:
+model = load_model('project4/model.h5')
+with open('project4/tokenizer.pkl','rb') as handle:
     tokenizer=pickle.load(handle)
 
 st.title('Mental Health Classifier')
