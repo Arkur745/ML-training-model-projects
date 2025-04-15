@@ -39,23 +39,23 @@ Welcome to this repository, which contains two machine learning projects demonst
 📌 **Key Outcome**: A regression model that predicts the calories burnt based on input features.
 
 ---
-# Mental Health Classification using Bi-LSTM [Click Here to test](https://mentalhealth-aryx.streamlit.app/)
+### Mental Health Classification using Bi-LSTM [Click Here to test](https://mentalhealth-aryx.streamlit.app/)
 
 This project aims to classify mental health conditions into five categories: **Depression**, **Anxiety**, **Stress**, **Bipolar Disorder**, and **Personality Disorder** using a **Bi-directional Long Short-Term Memory (Bi-LSTM)** model. The model is trained on a **Reddit text dataset** sourced from Kaggle, and the project leverages techniques in **Natural Language Processing (NLP)** to preprocess and classify text data.
 
-## Features
+### Features
 
 - **Bi-LSTM Architecture**: Utilizes the power of Bi-directional LSTM to capture both forward and backward contexts of text for improved accuracy.
 - **Data Preprocessing**: Includes tokenization, stop-word removal, and label encoding to clean and prepare text data for the model.
 - **Classification Performance**: Achieved a test accuracy of **73%**, demonstrating the effectiveness of Bi-LSTM in text classification tasks.
 - **Streamlit Interface**: Provides a simple user interface to interact with the model and classify mental health conditions.
 
-## Dataset
+### Dataset
 
 - **Source**: Reddit text dataset from Kaggle.
 - **Categories**: The dataset contains text data labeled with five mental health conditions: **Depression**, **Anxiety**, **Stress**, **Bipolar Disorder**, and **Personality Disorder**.
 
-## Tech Stack
+### Tech Stack
 
 - **Programming Language**: Python
 - **Deep Learning Framework**: TensorFlow/Keras
